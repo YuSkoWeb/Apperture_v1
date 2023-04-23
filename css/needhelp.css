@@ -1,0 +1,38 @@
+.needhelp {
+    width: 1440px;
+    height: 414px;
+    margin: 0 auto;
+    background-color: #000;
+    color: #fff;
+}
+.needhelp-content {
+    width: 600px;
+    height: 186px;
+    margin: 0 auto;
+    padding-top: 120px;
+    /* padding-bottom: 108px; */
+    align-content: center;
+    position: relative;
+}
+.needhelp-title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+.needhelp-text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #c0c0c0;
+    margin-bottom: 22px;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,54 @@
+.sunset {
+    width: 1440px;
+    min-height: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+.sunset-content {
+    width: 300px;
+    min-height: 600px;
+    position: absolute;
+    top: 0;
+    right: 62px;
+    padding-top: 260px;
+}
+.sunset-title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #ffffff;
+}
+.sunset-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    color: #c0c0c0;
+}
+.photo-settings {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
+.sunset-bg-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+    background-color: #333;
+    z-index: -1;
+}
+
+.sunset-bg-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

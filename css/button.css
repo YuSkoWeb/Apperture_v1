@@ -1,0 +1,30 @@
+.card-button {
+    position: absolute;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    background-color: #fff;
+    color: #000000;
+    border-radius: 12px;
+    padding: 8px 8px 8px 8px;
+}
+
+.btn-bottom {
+    bottom: 25px;
+}
+
+.card-button::before {
+    content: "";
+    position: relative;
+    float: left;
+    margin-right: 10px; /* Отодвигаем надпись на кнопке*/
+    width: 24px; /* ширина псевдо элемнта*/
+    height: 24px; /* высота псевдо элемента*/
+    background-color: #000;
+    border-radius: 8px;
+}
+
+.card-button:hover {
+    opacity: 0.8;
+}

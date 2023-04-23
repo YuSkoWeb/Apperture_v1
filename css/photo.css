@@ -1,0 +1,60 @@
+.photo-snapshot {
+    width: 1440px;
+    min-height: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container-content {
+    width: 300px;
+    min-height: 600px;
+    position: absolute;
+    top: 0;
+    right: 62px;
+    padding-top: 260px;
+}
+.content-title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.content-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #c0c0c0;
+}
+.photo-settings {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.photo-settings ul {
+    display: flex;
+    justify-content: flex-end;
+}
+.photo-settings li + li {
+    padding-left: 17px;
+}
+
+.photo-bg-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    z-index: -1;
+}
+
+.photo-bg-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

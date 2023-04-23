@@ -1,0 +1,38 @@
+.past_clients {
+    background-color: #000;
+    color: #fff;
+    width: 1440px;
+    margin: 0 auto;
+    height: 500px;
+}
+
+.past_clients-content {
+    padding-top: 113px;
+    margin-bottom: 40px;
+}
+.past_clients-title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+.past_clients-subtitle {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #c0c0c0;
+}
+.cilent_list {
+    width: 1168px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.cilent_list ul {
+    display: flex;
+    justify-content: space-between;
+}

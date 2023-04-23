@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    box-sizing: border-box;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.box {
+    width: 500px;
+    height: 400px;
+    border: 1px solid red;
+    background: #000;
+}
+.button {
+    color: black;
+    display: inline-block;
+    position: relative;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    background-color: #fff;
+    color: #000000;
+    border-radius: 12px;
+    padding: 8px 118px 12px 38px;
+}
+.button::before {
+    content: "";
+    position: absolute;
+    float: left;
+    top: 8px;
+    left: 8px;
+
+    width: 24px;
+    height: 24px;
+    background-color: #000;
+    border-radius: 8px;
+}
+
+.button::after {
+    content: "";
+    position: absolute;
+    /*float: left;*/
+    top: 8px;
+    right: 8px;
+    /*margin-right: 8px;*/
+    width: 64px;
+    height: 24px;
+    background-color: #000;
+    border-radius: 8px;
+}
